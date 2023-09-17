@@ -1,12 +1,15 @@
 import "./App.css";
-import Navbar from "./components/Nav/Nvbar/Navbar";
+import Navbar from "./components/Nav/Navbar/Navbar";
 // import Nav from "./components/Nav/Nav";
 
 function App() {
   return (
     <>
-      {/* <Nav></Nav> */}
+    <div className="container m-auto">
       <Navbar></Navbar>
+      {/* <Nav></Nav> */}
+    </div>
+      
     </>
   );
 }
